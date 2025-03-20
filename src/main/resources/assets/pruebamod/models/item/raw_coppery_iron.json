@@ -1,5 +1,10 @@
 {
 
+  "//comentario": "no se pueden escribir comentarios en jsons asi que lo hago asi xd",
+  "//comentario": "este es el apartado para las texturas, lo primero indica en que directorio (no lo cambies)",
+  "//comentario": "en textures dejalo como está a excepcion del nombre de tu item, raw_coppery_iron en este caso",
+  "//comentario": "esto buscara la imagen de la textura correspondiente en la carpeta textures/item",
+
   "parent": "item/generated",
   "textures": {
     "layer0": "pruebamod:item/raw_coppery_iron"

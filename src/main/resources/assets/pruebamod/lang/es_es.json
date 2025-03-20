@@ -1,6 +1,16 @@
 {
 
+  "//comentario": "no se pueden escribir comentarios en jsons asi que lo hago asi xd",
+  "//comentario": "este es el apartado para el español de espaÑa, lo primero indica en que directorio",
+  "//comentario": "está el item, que corresponde a (item/pruebamod) y luego el objeto",
+  "//comentario": "luego en verde es el nombre que quieras que aparezca en el juego",
+
+
   "item.pruebamod.coppery_iron_ingot": "Lingote de aleacion cobre-hierro",
-  "item.pruebamod.raw_coppery_iron": "Aleacion cobre-hierro cruda"
+  "item.pruebamod.raw_coppery_iron": "Aleacion cobre-hierro cruda",
+
+  "block.pruebamod.coppery_iron_block": "Bloque de aleacion cobre-hierro",
+
+  "itemgroup.coppery_iron": "Apartado de la aleacion cobre-hierro"
 
 }
