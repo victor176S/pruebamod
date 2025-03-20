@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pruebamod",
+	"version": "${version}",
+	"name": "Prueba mod",
+	"description": "mipae",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/pruebamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.victor.pruebamod.PruebaMod"
+		],
+		"client": [
+			"net.victor.pruebamod.PruebaModClient"
+		],
+		"fabric-datagen": [
+			"net.victor.pruebamod.PruebaModDataGenerator"
+		]
+	},
+	"mixins": [
+		"pruebamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
