@@ -15,9 +15,10 @@ import net.victor.pruebamod.PruebaModClient;
 
 public class ModItems {
     public static final Item COPPERY_IRON = registerItem("coppery_iron_ingot", new Item(new FabricItemSettings()));
-
+    public static final Item RAW_COPPERY_IRON = registerItem("raw_coppery_iron", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         entries.add(COPPERY_IRON);
+        entries.add(RAW_COPPERY_IRON);
     }
 
     private static Item registerItem(String name, Item item){
