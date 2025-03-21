@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cooking time": 200,
+  "experience": 0.7,
+  "group": "coppery_iron",
+  "ingredient": {
+    "item": "pruebamod:raw_coppery_iron"
+  },
+  "result": "pruebamod:coppery_iron_ingot"
+}

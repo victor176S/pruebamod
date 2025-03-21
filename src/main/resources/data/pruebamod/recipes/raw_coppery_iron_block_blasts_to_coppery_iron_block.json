@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cooking time": 800,
+  "experience": 0.7,
+  "group": "coppery_iron",
+  "ingredient": {
+    "item": "pruebamod:raw_coppery_iron_block"
+  },
+  "result": "pruebamod:coppery_iron_block"
+}

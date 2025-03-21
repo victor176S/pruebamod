@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "pruebamod:coppery_iron_block"
+    }
+  ],
+  "result": {
+    "item": "pruebamod:coppery_iron_ingot",
+    "count": 9
+  }
+}

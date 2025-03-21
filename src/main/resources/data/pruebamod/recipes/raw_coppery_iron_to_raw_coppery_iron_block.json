@@ -1,0 +1,18 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "pruebamod:raw_coppery_iron"
+    }
+  },
+  "result": {
+    "item": "pruebamod:raw_coppery_iron_block"
+  }
+}
