@@ -21,7 +21,9 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COPPERY_IRON);
                         entries.add(ModItems.RAW_COPPERY_IRON);
+
                         entries.add(ModBlocks.COPPERY_IRON_BLOCK);
+                        entries.add(ModBlocks.RAW_COPPERY_IRON_BLOCK);
 
                     }).build());
 //aqui arriba se ponen los items que quieres que aparezcan en el apartado con entries.add(ModItems.NOMBRE);

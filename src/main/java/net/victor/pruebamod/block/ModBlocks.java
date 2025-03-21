@@ -13,7 +13,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.victor.pruebamod.PruebaMod;
 
-/*en new Block(FabricBlockSettings() se pùede poner justo despues de settings .copyOf(Blocks.IRON_BLOCK)
+/*en new Block(FabricBlockSettings() se puede poner justo despues de settings .copyOf(Blocks.IRON_BLOCK)
 para copiar las propiedades del bloque de hierro, se aplica a todos los demas bloques tambien
 
 se puede poner fuera del parentesis de (Blocks.BLOQUE_DE_EJEMPLO) alguna de las propiedades de un bloque
@@ -25,7 +25,8 @@ con .create() se pueden crear las propiedades de un bloque desde 0
 public class ModBlocks {
     public static final Block COPPERY_IRON_BLOCK = registerBlock("coppery_iron_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
-
+    public static final Block RAW_COPPERY_IRON_BLOCK = registerBlock("raw_coppery_iron_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);

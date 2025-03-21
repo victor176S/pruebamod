@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pruebamod:block/raw_coppery_iron_block"
+  }
+}

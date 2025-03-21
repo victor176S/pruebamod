@@ -14,6 +14,8 @@ public class PruebaMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Hello Fabric world!");
+
 		ModItemGroups.registerItemGroups();
 
 		ModItems.registerModItems();
