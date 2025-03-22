@@ -12,6 +12,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.victor.pruebamod.PruebaMod;
 import net.victor.pruebamod.PruebaModClient;
+import net.victor.pruebamod.item.custom.MetalDetectorItem;
 
 //aqui se ponen items
 
@@ -23,6 +24,10 @@ public class ModItems {
 
     public static final Item COPPERY_IRON = registerItem("coppery_iron_ingot", new Item(new FabricItemSettings()));
     public static final Item RAW_COPPERY_IRON = registerItem("raw_coppery_iron", new Item(new FabricItemSettings()));
+
+    public static final Item METAL_DETECTOR = registerItem("metal_detector",
+            new MetalDetectorItem(new FabricItemSettings().maxDamage(64)));
+
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         /*por cada item añadido tienes que poner entries.add(nombre en mayusculas que aparece a la derecha de
         Item en las lineas de arriba*/
@@ -37,7 +42,8 @@ public class ModItems {
     public static void registerModItems(){
         PruebaMod.LOGGER.info("Registrando Items para el mod " + PruebaMod.MOD_ID);
 
-        //aqui se asigna a que apartado de creativo quieres que se ponga, el nombre en rosa es el nombre de el apartado del mc
+        /*aqui se asigna a que apartado de creativo quieres que se ponga, el nombre en rosa es el nombre del apartado del mc vanilla
+        */
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientTabItemGroup);
     }
 

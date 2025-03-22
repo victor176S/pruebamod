@@ -10,10 +10,13 @@
 
   "item.pruebamod.coppery_iron_ingot": "Coppery iron ingot",
   "item.pruebamod.raw_coppery_iron": "Raw coppery iron",
+  "item.pruebamod.metal_detector": "Metal detector",
 
   "block.pruebamod.coppery_iron_block": "Block of Coppery iron",
   "block.pruebamod.raw_coppery_iron_block": "Raw block of Coppery iron",
+  "block.pruebamod.coppery_iron_ore": "Coppery iron ore",
 
-  "itemgroup.coppery_iron": "Coppery iron Tab"
+  "itemgroup.coppery_iron": "Coppery iron Tab",
+  "itemgroup.metal_detector": "Metal Detector Tab"
 
 }
