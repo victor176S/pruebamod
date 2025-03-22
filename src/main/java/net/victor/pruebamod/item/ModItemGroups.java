@@ -38,6 +38,16 @@ public class ModItemGroups {
                         entries.add(ModItems.METAL_DETECTOR);
 
                     }).build());
+
+    public static final ItemGroup SoundBlock = Registry.register(Registries.ITEM_GROUP,
+            //en esta linea de abajo va la imagen del apartado
+            new Identifier(PruebaMod.MOD_ID,"sound_block"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.sound_block"))
+                    .icon(() -> new ItemStack(ModBlocks.SOUND_BLOCK)).entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.SOUND_BLOCK);
+
+                    }).build());
 //aqui arriba se ponen los items que quieres que aparezcan en el apartado con entries.add(ModItems.NOMBRE);
 
 //estos son los logs, solo cambia PruebaMod por el nombre que tengas en el archivo que esta en net.tunombre.nombremod

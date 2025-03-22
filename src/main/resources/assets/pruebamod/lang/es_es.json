@@ -13,8 +13,10 @@
   "block.pruebamod.coppery_iron_block": "Bloque de aleacion cobre-hierro",
   "block.pruebamod.raw_coppery_iron_block": "Bloque de aleacion cobre-hierro crudo",
   "block.pruebamod.coppery_iron_ore": "Ore de aleacion cobre-hierro",
+  "block.pruebamod.sound_block": "Bloque de sonido",
 
   "itemgroup.coppery_iron": "Apartado de la aleacion cobre-hierro",
-  "itemgroup.metal_detector": "Apartado del detector de metales"
+  "itemgroup.metal_detector": "Apartado del detector de metales",
+  "itemgroup.sound_block": "Apartado de Bloque de sonido"
 
 }
