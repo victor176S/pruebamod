@@ -71,6 +71,16 @@ public class ModItemGroups {
 
                     }).build());
 
+    public static final ItemGroup FUELS = Registry.register(Registries.ITEM_GROUP,
+            //en esta linea de abajo va la imagen del apartado
+            new Identifier(PruebaMod.MOD_ID,"fuels"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fuels"))
+                    .icon(() -> new ItemStack(ModBlocks.ULTRA_COMPACTED_COAL_BLOCK)).entries((displayContext, entries) -> {
+
+                        entries.add(ModBlocks.ULTRA_COMPACTED_COAL_BLOCK);
+
+                    }).build());
+
 //estos son los logs, solo cambia PruebaMod por el nombre que tengas en el archivo que esta en net.tunombre.nombremod
 //que solo tenga el nombre del mod
     public static void  registerItemGroups(){

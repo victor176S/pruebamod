@@ -9,16 +9,20 @@
   "item.pruebamod.coppery_iron_ingot": "Lingote de aleacion cobre-hierro",
   "item.pruebamod.raw_coppery_iron": "Aleacion cobre-hierro cruda",
   "item.pruebamod.metal_detector": "Detector de metales",
+  "tooltip.pruebamod.metal_detector.tooltip": "Este item detecta metales",
+
   "item.pruebamod.tomato": "Tomate",
 
   "block.pruebamod.coppery_iron_block": "Bloque de aleacion cobre-hierro",
   "block.pruebamod.raw_coppery_iron_block": "Bloque de aleacion cobre-hierro crudo",
   "block.pruebamod.coppery_iron_ore": "Ore de aleacion cobre-hierro",
   "block.pruebamod.sound_block": "Bloque de sonido",
+  "block.pruebamod.ultra_compacted_coal_block": "Bloque de carbon ultra compacto",
 
   "itemgroup.coppery_iron": "Apartado de la aleacion cobre-hierro",
   "itemgroup.metal_detector": "Apartado del detector de metales",
   "itemgroup.sound_block": "Apartado de Bloque de sonido",
-  "itemgroup.foods": "Apartado de comidas"
+  "itemgroup.foods": "Apartado de comidas",
+  "itemgroup.fuels": "Apartado de combustibles"
 
 }

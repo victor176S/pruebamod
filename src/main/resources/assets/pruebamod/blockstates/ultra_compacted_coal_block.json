@@ -1,0 +1,14 @@
+{
+
+  "//comentario": "no se pueden escribir comentarios en jsons asi que lo hago asi xd",
+  "//comentario": "aqui se ponen los estados del bloque, este es un ejemplo de bloque simple",
+  "//comentario": "pero se pueden definir las condiciones de un bloque custom para que cambie",
+  "//comentario": "de estado",
+
+  "variants": {
+    "": {
+      "model": "pruebamod:block/ultra_compacted_coal_block"
+    }
+
+  }
+}

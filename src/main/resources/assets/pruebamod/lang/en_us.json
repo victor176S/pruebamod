@@ -8,15 +8,19 @@
   "item.pruebamod.coppery_iron_ingot": "Coppery iron ingot",
   "item.pruebamod.raw_coppery_iron": "Raw coppery iron",
   "item.pruebamod.metal_detector": "Metal detector",
+  "tooltip.pruebamod.metal_detector.tooltip": "This item detects metals",
+
   "item.pruebamod.tomato": "Tomato",
 
   "block.pruebamod.coppery_iron_block": "Block of Coppery iron",
   "block.pruebamod.raw_coppery_iron_block": "Raw block of Coppery iron",
   "block.pruebamod.coppery_iron_ore": "Coppery iron ore",
   "block.pruebamod.sound_block": "Sound block",
+  "block.pruebamod.ultra_compacted_coal_block": "Ultra compacted coal block",
 
   "itemgroup.coppery_iron": "Coppery iron Tab",
   "itemgroup.metal_detector": "Metal Detector Tab",
   "itemgroup.sound_block": "Sound block Tab",
-  "itemgroup.foods": "Foods Tab"
+  "itemgroup.foods": "Foods Tab",
+  "itemgroup.fuels": "Fuels Tab"
 }

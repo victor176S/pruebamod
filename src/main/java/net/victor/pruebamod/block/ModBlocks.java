@@ -36,6 +36,10 @@ public class ModBlocks {
     public static final Block COPPERY_IRON_ORE = registerBlock("coppery_iron_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(2f), UniformIntProvider.create(2, 5)));
 
+    //para hacer combustibles, el tiempo de quema se tiene que poner en el archivo principal del mod
+    public static final Block ULTRA_COMPACTED_COAL_BLOCK = registerBlock("ultra_compacted_coal_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 

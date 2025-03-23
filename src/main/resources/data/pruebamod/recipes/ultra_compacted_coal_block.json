@@ -1,0 +1,18 @@
+{
+
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "pruebamod:ultra_compacted_coal_block"
+  }
+}
