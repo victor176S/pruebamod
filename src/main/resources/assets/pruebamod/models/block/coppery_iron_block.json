@@ -1,4 +1,10 @@
 {
+
+  "//comentario": "aqui se pone el modelo del bloque y como queremos que se coloque la textura",
+  "//comentario": "este es un ejemplo de un bloque que tiene como modelo la misma textura en todas las caras",
+  "//comentario": "ademas se le asigna la textura correspondiente, que coincide con",
+  "//comentario":  "nombremod:block/nombre_bloque",
+
   "parent": "block/cube_all",
   "textures": {
     "all": "pruebamod:block/coppery_iron_block"

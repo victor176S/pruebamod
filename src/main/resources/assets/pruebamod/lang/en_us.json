@@ -1,5 +1,3 @@
-
-
 {
   "//comentario": "no se pueden escribir comentarios en jsons asi que lo hago asi xd",
   "//comentario": "este es el apartado para el ingles de estados unidos, lo primero indica en que directorio",
@@ -10,6 +8,7 @@
   "item.pruebamod.coppery_iron_ingot": "Coppery iron ingot",
   "item.pruebamod.raw_coppery_iron": "Raw coppery iron",
   "item.pruebamod.metal_detector": "Metal detector",
+  "item.pruebamod.tomato": "Tomato",
 
   "block.pruebamod.coppery_iron_block": "Block of Coppery iron",
   "block.pruebamod.raw_coppery_iron_block": "Raw block of Coppery iron",
@@ -18,5 +17,6 @@
 
   "itemgroup.coppery_iron": "Coppery iron Tab",
   "itemgroup.metal_detector": "Metal Detector Tab",
-  "itemgroup.sound_block": "Sound block Tab"
+  "itemgroup.sound_block": "Sound block Tab",
+  "itemgroup.foods": "Foods Tab"
 }

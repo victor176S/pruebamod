@@ -1,5 +1,8 @@
 package net.victor.pruebamod.block;
 
+/*aquí se añaden los bloques del mod, en los cuales se pueden definir las propiedades del minecraft vanilla,
+las funciones custom se ponen en el archivo del bloque custom específico (mirar SoundBlock)*/
+
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -36,6 +39,9 @@ public class ModBlocks {
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
             new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+
+    //estas dos funciones registran todos los bloques e items respectivamente en el juego, son obligatorias
+
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(PruebaMod.MOD_ID, name), block);
@@ -52,3 +58,6 @@ public class ModBlocks {
         PruebaMod.LOGGER.info("Registrando Bloques para " + PruebaMod.MOD_ID);
     }
 }
+/*para hacer un bloque correctamente se tiene que modificar el ModBlocks (block/ModBlocks), el ModItemGroups (item/ModItemGroups),
+y en la carpeta assets/nombre_mod_ejemplo tienes que crear un json en blockstates, models/block, models/item con el nombre del bloque,
+luego modificarlos de la manera que se marque en los jsons ya hechos y poner la textura del bloque en textures/block */

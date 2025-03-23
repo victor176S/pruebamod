@@ -1,3 +1,7 @@
 {
+
+  "//comentario": "aqui se le asigna la textura correspondiente al bloque como item, osea",
+  "//comentario":  "como se ve en la mano, que coincide con nombremod:block/nombre_bloque",
+
   "parent": "pruebamod:block/sound_block"
 }
